@@ -1,7 +1,7 @@
 import Dropdown from './Dropdown'
 import SubMenu from '../Shared/SubMenu'
 
-export default function ({ menus }) {
+export default function Menu({ menus }) {
   return (
     <ul className="flex items-center gap-8">
       {menus.map(({ title, url, submenus }, index) =>
